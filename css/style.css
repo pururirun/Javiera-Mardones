@@ -534,7 +534,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .skills {
-  margin-left: 6em;
+  margin-left: 8em;
 }
 
 #services .service-icon {
@@ -809,7 +809,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contactLink {
-  margin-left: 7em;
+  margin-left: 8em;
 }
 
 #contact .info {
@@ -895,4 +895,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+
+@media (min-width: 200px) and (max-width:768px) {
+
+.skills {
+  margin-left: 0;
+}
+
+.contactLink {
+  margin-left: 0;
+}
 }
