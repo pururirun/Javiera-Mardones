@@ -1,12 +1,4 @@
-/*
-  Theme Name: Imperial
-  Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
-  Author: BootstrapMade
-  Author URL: https://bootstrapmade.com
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 
 /*mi parte del portafolio estilos*/
 .project-img-detail{
@@ -24,12 +16,12 @@ body {
 }
 
 a {
-  color: #03C4EB;
+  color: #fe044b;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: #fe044b;
   outline: none;
   text-decoration: none;
 }
@@ -85,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #03C4EB;
+  background: #fe044b;
   color: #fff;
 }
 
@@ -96,8 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background-color: #090909;
-  background-size: cover;
+  background-color: #121c3e;
 }
 
 @media (min-width: 1024px) {
@@ -128,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 48px;
   text-transform: uppercase;
-  color: #03C4EB;
+  color: #fe044b;
 }
 
 @media (max-width: 768px) {
@@ -140,6 +131,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #999;
+  margin-bottom: 50px;
+}
+
+#hero h3 {
+  color: #3a425a;
   margin-bottom: 50px;
 }
 
@@ -197,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #111;
+  background: #151821;
   padding: 20px 0;
   height: 90px;
 }
@@ -327,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color: #fe044b;
 }
 
 .nav-menu ul {
@@ -487,7 +483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #fe044b;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -497,14 +493,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   background: #fff;
   padding: 80px 0;
+  height: 50em;
 }
 
-#about .about-container {
-  background: url(../img/profile.jpg) left no-repeat;
+
+#about .about-container img {
+ height: 300px;
+ width: 300px;
+ background-repeat: no-repeat;
+ background-position: 50%;
+ border-radius: 50%;
+ background-size: 100% auto;
 }
 
-#about .about-content {
-  background: #fff;
+
 }
 
 #about .about-title {
@@ -515,6 +517,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-text {
   line-height: 26px;
+  width: 500px;
+  margin-top: 3em;
 }
 
 #about .about-text:last-child {
@@ -524,7 +528,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-color: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -539,11 +543,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-icon {
   float: left;
-  background: #00bab1;
+  background: #fe044b;
   padding: 20px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #fe044b;
 }
 
 #services .service-icon i {
@@ -561,7 +565,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #fe044b;
 }
 
 #services .service-title {
@@ -804,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: -webkit-linear-gradient(#fff, #eaecff);
   padding: 80px 0;
 }
 
@@ -819,7 +823,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #fe044b;
   float: left;
 }
 
@@ -881,8 +885,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #111;
-  padding: 30px 0;
+  background: #121c3e;
+  padding: 10px 0;
   color: #fff;
 }
 
